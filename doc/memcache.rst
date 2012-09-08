@@ -24,9 +24,8 @@ Registering
 -----------
   Example registration and configuration::
 
-    // add SilexExtension library to the autoloader 
-    $app['autoloader']->registerNamespace('SilexExtension', __DIR__ . '/path/to/silex-extensions');
-    $app->register(new SilexExtension\MemcacheExtension(), array(
+    // add SilexMemcache library to the autoloader 
+    $app->register(new SilexMemcache\MemcacheExtension(), array(
         'memcache.library'    => 'memcached',
         'memcache.server' => array(
             array('127.0.0.1', 11211)    

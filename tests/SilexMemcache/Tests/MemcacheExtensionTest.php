@@ -1,12 +1,12 @@
 <?php
 
-namespace SilexExtension\Tests\Extension;
+namespace SilexMemcache\Tests\Extension;
 
 use Silex\Application;
 
 use Symfony\Component\HttpFoundation\Request;
 
-use SilexExtension\MemcacheExtension;
+use SilexMemcache\MemcacheExtension;
 
 class MemcacheExtensionTest extends \PHPUnit_Framework_TestCase
 {

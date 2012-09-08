@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SilexExtension;
+namespace SilexMemcache;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;

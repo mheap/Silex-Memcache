@@ -14,7 +14,7 @@
 >
     <testsuites>
         <testsuite name="Silex Extensions Test Suite">
-            <directory>./tests/SilexExtension/</directory>
+            <directory>./tests/SilexMemcache/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
