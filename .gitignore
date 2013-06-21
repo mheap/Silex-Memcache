@@ -6,3 +6,4 @@ composer.phar
 example/odm/Model
 example/assetic/output/*
 example/assetic/cache/*
+composer.lock
