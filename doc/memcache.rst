@@ -13,7 +13,7 @@ Parameters
 * **memcache.server** (optional): An array servers which are added via addSever, please be aware
   that memcache and memcached* have different method signatures after the second argument for
   addServer. See `Memcache <http://de2.php.net/manual/en/memcache.addserver.php>` and
-  `Memcached <http://de2.php.net/manual/en/memcache.addserver.php>`
+  `Memcached <http://de2.php.net/manual/en/memcached.addserver.php>`
 
 Services
 --------
