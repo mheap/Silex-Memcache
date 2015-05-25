@@ -28,7 +28,7 @@ class MemcacheExtension implements ServiceProviderInterface
             } else
             
             if($library == 'memcached') {
-                $memcache = new \Memcached();
+                $memcache = new \Memcached(implode(",", $servers));
             } else {
                 throw new \Exception("Unsupported library '{$library}, choose between 'Memcache' or 'Memcached'");
             }
