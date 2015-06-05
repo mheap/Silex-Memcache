@@ -26,7 +26,7 @@ class MemcacheExtensionTest extends \PHPUnit_Framework_TestCase
         $app->register(new MemcacheExtension(), array(
             'memcache.library'    => 'memcached',
             'memcache.server' => array(
-                array('127.0.0.1', 11211)
+                array('localhost', 11211)
             )
         ));
 
@@ -45,7 +45,7 @@ class MemcacheExtensionTest extends \PHPUnit_Framework_TestCase
         $app->register(new MemcacheExtension(), array(
             'memcache.library'    => 'memcache',
             'memcache.server' => array(
-                array('127.0.0.1', 11211)
+                array('localhost', 11211)
             )
         ));
 
@@ -64,7 +64,7 @@ class MemcacheExtensionTest extends \PHPUnit_Framework_TestCase
         $app->register(new MemcacheExtension(), array(
             'memcache.library'    => 'memcache',
             'memcache.server' => array(
-                array('127.0.0.1', 11211)
+                array('localhost', 11211)
             )
         ));
 
@@ -86,7 +86,7 @@ class MemcacheExtensionTest extends \PHPUnit_Framework_TestCase
         $app->register(new MemcacheExtension(), array(
             'memcache.library'    => 'memcached',
             'memcache.server' => array(
-                array('127.0.0.1', 11211)
+                array('localhost', 11211)
             )
         ));
 

@@ -9,7 +9,5 @@ tar -xzf memcache-2.2.6.tgz
 sh -c "cd memcache-2.2.6 && phpize && ./configure && make && sudo make install"
 echo "extension=memcache.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"`
 
-wget silex-project.org/get/silex.phar
-
 wget http://getcomposer.org/composer.phar
-php composer.phar install --dev
+php composer.phar install
