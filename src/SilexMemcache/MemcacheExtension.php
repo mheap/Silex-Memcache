@@ -32,11 +32,11 @@ class MemcacheExtension implements ServiceProviderInterface
             } else {
                 throw new \Exception("Unsupported library '{$library}, choose between 'Memcache' or 'Memcached'");
             }
-
-            foreach($servers as $config) {
-                call_user_func_array(array($memcache, 'addServer'), array_values($config));
+            if (($library == 'memcached' && !count($memcache->getServerList())) || $library == 'memcache') {
+                foreach($servers as $config) {
+                    call_user_func_array(array($memcache, 'addServer'), array_values($config));
+                }
             }
-                
             return $memcache;
         });
     }
