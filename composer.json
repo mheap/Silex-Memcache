@@ -5,7 +5,6 @@
     "homepage": "https://github.com/mheap/Silex-Memcache",
     "type": "library",
     "license": "MIT",
-    "version": "dev",
     "authors": [
         {
             "name": "Sven Eisenschmidt",
