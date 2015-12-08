@@ -10,7 +10,7 @@ Create a composer.json in your projects root-directory::
 
     {
         "require": {
-            "mheap/Silex-Memcache": "*@dev"
+            "mheap/Silex-Memcache": "1.*"
         }
     }
 
