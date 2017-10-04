@@ -13,8 +13,8 @@
          bootstrap="tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="Silex Extensions Test Suite">
-            <directory>./tests/SilexMemcache/</directory>
+        <testsuite name="Silex Memcache Test Suite">
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="PSR2-everything">
+    <rule ref="PSR2"/>
+    <file>./src</file>
+    <file>./tests</file>
+    <file>./example</file>
+</ruleset>
